@@ -133,7 +133,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lValue = new Label(Msg.translate(p_ctx, "Value"));
 		row.appendChild(lValue.rightAlign());
 		lValue.setStyle(WPOS.FONTSIZESMALL);
-		f_value = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_value = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		row.appendChild(f_value);
 		f_value.setWidth("120px");
 		f_value.addEventListener(this);
@@ -142,7 +142,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lContact = new Label(Msg.translate(p_ctx, "Contact"));
 		row.appendChild(lContact.rightAlign());
 		lContact.setStyle(WPOS.FONTSIZESMALL);
-		f_contact = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_contact = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		row.appendChild(f_contact);
 		f_contact.setWidth("120px");
 		f_contact.addEventListener(this);
@@ -151,7 +151,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lPhone = new Label(Msg.translate(p_ctx, "Phone"));
 		row.appendChild(lPhone.rightAlign());
 		lPhone.setStyle(WPOS.FONTSIZESMALL);
-		f_phone = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_phone = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		row.appendChild(f_phone);
 		f_phone.setWidth("120px");
 		f_phone.addEventListener(this);
@@ -162,7 +162,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lName = new Label(Msg.translate(p_ctx, "Name"));
 		row.appendChild(lName.rightAlign());
 		lName.setStyle(WPOS.FONTSIZESMALL);
-		f_name = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_name = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		row.appendChild(f_name);
 		f_name.addEventListener(this);
 		f_name.setWidth("120px");
@@ -171,7 +171,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lEmail = new Label(Msg.translate(p_ctx, "Email"));
 		row.appendChild(lEmail.rightAlign());
 		lEmail.setStyle(WPOS.FONTSIZESMALL);
-		f_email = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_email = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		row.appendChild(f_email);
 		f_email.addEventListener(this);
 		f_email.setWidth("120px");
@@ -180,7 +180,7 @@ public class WQueryBPartner extends WPosQuery {
 		Label lCity = new Label(Msg.translate(p_ctx, "City"));
 		row.appendChild(lCity.rightAlign());
 		lCity.setStyle(WPOS.FONTSIZESMALL);
-		f_city = new WPosTextField(v_POSPanel, v_POSPanel.getOSKeyLayout_ID());
+		f_city = new WPosTextField(v_POSPanel.getOSKeyLayout_ID());
 		f_city.setWidth("120px");
 		row.appendChild(f_city);
 		f_city.addEventListener("onFocus", this);

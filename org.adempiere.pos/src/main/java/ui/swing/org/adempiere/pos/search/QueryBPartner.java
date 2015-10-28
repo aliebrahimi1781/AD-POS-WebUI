@@ -22,6 +22,7 @@ import net.miginfocom.swing.MigLayout;
 
 import org.adempiere.pos.POSTextField;
 import org.adempiere.pos.VPOS;
+import org.adempiere.pos.grid.VPOSBPartner;
 import org.compiere.grid.ed.VBPartner;
 import org.compiere.minigrid.ColumnInfo;
 import org.compiere.minigrid.IDColumn;
@@ -154,7 +155,7 @@ public class QueryBPartner extends POSQuery {
 	@Override
 	protected void newAction() {
 		super.newAction();
-		VBPartner t = new VBPartner(new Frame(), 0);
+		VPOSBPartner t = new VPOSBPartner(new Frame(), 0, v_POSPanel);
 		t.setVisible(true);
 		m_C_BPartner_ID = t.getC_BPartner_ID();
 		//	Close
